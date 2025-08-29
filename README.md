@@ -1,33 +1,27 @@
 # web-win-vue-docs
 
-This template should help get you started developing with Vue 3 in Vite.
+Web-Win-Vue 的使用文档，基于 Web-Win-Vue 与 Vue3 。
 
-## Recommended IDE Setup
+## 贡献
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+目前暂未设置具体的贡献要求，但您仍可以提交贡献！
 
-## Type Support for `.vue` Imports in TS
+### 克隆仓库
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+```sh
+git clone https://github.com/HHCL233/web-win-vue-docs.git
+```
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+### 环境配置
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 进行开发
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
 
-```sh
-npm run build
-```
