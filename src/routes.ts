@@ -16,6 +16,16 @@ const routes = [
     name: "installation",
     component: () => import("@/installation.vue"),
   },
+  {
+    path: "/button",
+    name: "button",
+    component: () => import("@/button.vue"),
+  },
+  {
+    path: "/about",
+    name: "about",
+    component: () => import("@/about.vue"),
+  }
 ];
 const router = createRouter({
   history: createWebHashHistory(),
