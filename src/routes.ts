@@ -25,6 +25,23 @@ const routes = [
     path: "/about",
     name: "about",
     component: () => import("@/about.vue"),
+  },
+  {
+    path: "/card",
+    name: "card",
+    component: () => import("@/card.vue"),
+  }
+  ,
+  {
+    path: "/inputbox",
+    name: "inputbox",
+    component: () => import("@/inputbox.vue"),
+  }
+  ,
+  {
+    path: "/passwordbox",
+    name: "passwordbox",
+    component: () => import("@/passwordbox.vue"),
   }
 ];
 const router = createRouter({
