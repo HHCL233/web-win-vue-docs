@@ -24,4 +24,8 @@ npm install
 npm run dev
 ```
 
+### 许可证
+
+- [CC BY-NC 4.0](https://github.com/HHCL233/web-win-vue-docs/blob/main/LICENSE)
+
 
