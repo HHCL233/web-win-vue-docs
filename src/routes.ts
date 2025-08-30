@@ -42,6 +42,16 @@ const routes = [
     path: "/passwordbox",
     name: "passwordbox",
     component: () => import("@/passwordbox.vue"),
+  },
+  {
+    path: "/richeditbox",
+    name: "richeditbox",
+    component: () => import("@/richeditbox.vue"),
+  },
+  {
+    path: "/progressbar",
+    name: "progressbar",
+    component: () => import("@/progressbar.vue"),
   }
 ];
 const router = createRouter({

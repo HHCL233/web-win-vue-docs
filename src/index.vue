@@ -11,6 +11,8 @@ const menu = ref([
   { name: 'Card 卡片', icon: 'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z' },
   { name: 'Inputbox 输入框', icon: 'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z' },
   { name: 'Passwordbox 密码框', icon: 'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z' },
+  { name: 'Richeditbox 多行输入框', icon: 'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z' },
+  { name: 'Progressbar 进度条', icon: 'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z' },
   { name: '关于', icon: 'M512 504L764.8 68.8h-134.4L512 275.2 393.6 70.4h-134.4L512 504zM819.2 70.4L512 600 204.8 68.8H0l512 886.4L1024 70.4H819.2z' },
 ])
 </script>
@@ -21,7 +23,7 @@ const menu = ref([
   <wintile title="照片"
     icon='M12 3C6.5 3 2 6.6 2 11c0 2.1 1 4 2.6 5.4-.1.4-.4 1.6-.4 2.6 0 .5.4 1 .9 1 .2 0 .3 0 .5-.1.8-.3 2.4-1.1 3.5-1.6.9.3 1.9.5 3 .5 5.5 0 10-3.6 10-8 0-4.4-4.5-8-10-8zm0 14c-4.4 0-8-2.7-8-6s3.6-6 8-6 8 2.7 8 6-3.6 6-8 6z' />-->
   <wintab :menu="menu" titlebar="true" titlebartext="Web-Win-Vue-Docs"
-    :url="['/web-win-vue-docs/#/home', '/web-win-vue-docs/#/installation', '/web-win-vue-docs/#/button', '/web-win-vue-docs/#/card', '/web-win-vue-docs/#/inputbox', '/web-win-vue-docs/#/passwordbox', '/web-win-vue-docs/#/about']"
+    :url="['/web-win-vue-docs/#/home', '/web-win-vue-docs/#/installation', '/web-win-vue-docs/#/button', '/web-win-vue-docs/#/card', '/web-win-vue-docs/#/inputbox','/web-win-vue-docs/#/passwordbox', '/web-win-vue-docs/#/richeditbox', '/web-win-vue-docs/#/progressbar', '/web-win-vue-docs/#/about']"
     style="height: calc( 100% - 0.9px );" />
 </template>
 
