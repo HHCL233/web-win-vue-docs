@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { winbutton } from 'web-win-vue'
-import 'web-win-vue/web-win-vue.css'
+import 'web-win-vue/style.css'
 import { ref } from 'vue'
 
 

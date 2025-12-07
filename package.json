@@ -17,7 +17,7 @@
     "router": "^2.2.0",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1",
-    "web-win-vue": "^0.5.0"
+    "web-win-vue": "^0.7.2"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.2",

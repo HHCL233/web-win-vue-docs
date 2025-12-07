@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { wincard, winbutton } from 'web-win-vue'
-import 'web-win-vue/web-win-vue.css'
+import 'web-win-vue/style.css'
 import { ref } from 'vue'
 
 
@@ -21,17 +21,20 @@ h1 {
   font-weight: normal;
   margin-top: -2.5px;
 }
+
 h2 {
   font-weight: normal;
   margin-bottom: 10px;
   font-size: 24px;
 
 }
+
 .docs-text {
   font-size: 15px;
 }
+
 .docs-code {
-  padding:10px 10px;
+  padding: 10px 10px;
   height: auto;
   width: 600px;
 }

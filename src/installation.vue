@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { wincard } from 'web-win-vue'
-import 'web-win-vue/web-win-vue.css'
+import 'web-win-vue/style.css'
 import { ref } from 'vue'
 
 
@@ -11,7 +11,9 @@ import { ref } from 'vue'
       <h1 style="font-weight: normal; margin-top: -2.5px; margin-bottom: 20px">安装</h1>
       <h2 style="font-weight: normal; margin-top: -2.5px; margin-bottom: 10px;font-size: 24px;">npm 安装</h2>
       <p style="font-size: 15px;"></p>
-      <wincard style="padding:10px 10px;height: auto;width: 600px;"><p style="margin: 0;">npm install web-win-vue</p></wincard>
+      <wincard style="padding:10px 10px;height: auto;width: 600px;">
+        <p style="margin: 0;">npm install web-win-vue</p>
+      </wincard>
       <h1 style="font-weight: normal; margin-top: 50px; margin-bottom: 20px">导入</h1>
       <h2 style="font-weight: normal; margin-top: -2.5px; margin-bottom: 10px;font-size: 24px;">使用部分组件</h2>
       <p style="font-size: 15px;">例如，要导入 wincard 组件 ，可以：</p>
