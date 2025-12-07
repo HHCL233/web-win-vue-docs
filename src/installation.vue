@@ -18,7 +18,7 @@ import { ref } from 'vue'
       <h2 style="font-weight: normal; margin-top: -2.5px; margin-bottom: 10px;font-size: 24px;">使用部分组件</h2>
       <p style="font-size: 15px;">例如，要导入 wincard 组件 ，可以：</p>
       <wincard style="padding:10px 10px;height: auto;width: 600px;">
-        <p style="margin: 0;">import 'web-win-vue/web-win-vue.css'</p>
+        <p style="margin: 0;">import 'web-win-vue/style.css'</p>
         <p style="margin: 0;">import { wincard } from 'web-win-vue'</p>
       </wincard>
       <p style="font-size: 15px;"></p>
